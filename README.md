@@ -37,5 +37,8 @@ void workaround() {
 }
 ```
 
-
 Note that `workaround()` is never called, simply compiled with the target.
+
+# References
+
+Checking protocol conformance for j2objc classes is down through [[IOSProtocolClass isAssignableFrom:]](https://github.com/google/j2objc/blob/master/jre_emul/Classes/IOSProtocolClass.m#L108).
