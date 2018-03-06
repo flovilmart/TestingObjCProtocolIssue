@@ -1,0 +1,11 @@
+//
+//  Common.xcconfig
+//  TestingObjCProtocolIssue
+//
+//  Created by Florent Vilmart on 18-03-06.
+//  Copyright © 2018 amp. All rights reserved.
+//
+
+HEADER_SEARCH_PATHS = $(PROJECT_DIR)/j2objc/include
+LIBRARY_SEARCH_PATHS = $(PROJECT_DIR)/j2objc
+OTHER_LDFLAGS = -ljre_emul -liconv
